@@ -1,0 +1,591 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* //navForFlex */
+header{
+   
+    background: url(images2/landing.jpg);
+    height: 657px;
+}
+.backblack{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 60%);
+}
+
+.navForFlex{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: transparent;
+}
+.divForSections{
+    display: flex;
+}
+
+a{
+    margin: 0px 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+    color: white;
+
+}
+a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.bi{
+    font-size: 16px;
+    position: relative;
+    top: 5px;
+    color: white;
+} 
+.divForTextTheNav{
+    width: 700px;
+    padding: 64px;
+    position: relative;
+    top: 95px;
+    right: 120px;
+    background: rgb(15 116 143 / 70%);
+}
+.firstTilte{
+    font-size: 30px;
+    font-weight: bold;
+    color: wheat;
+    font-family: auto;
+}
+.firstPargTheNav{
+    color: wheat;
+}
+
+.circulSpan{
+    display: block;
+    width: 14px;
+    height: 14px;
+    border: 2px solid gray;
+    position: relative;
+    left: 47%;
+    background: rgb(15 116 143 / 70%);
+    top: 190px;
+    border-radius: 50%;
+    margin: 0 5px
+}
+.circulSpan1{
+    display: block;
+    width: 14px;
+    height: 14px;
+    border: 2px solid gray;
+    position: relative;
+    left: 47%;
+    background: transparent;
+    top: 190px;
+    border-radius: 50%;
+    margin: 0 5px
+}
+.allCircule{
+    display: flex;
+}
+.next{
+    background: whitesmoke;
+    position: relative;
+    float: right;
+    top: -137px;
+    left: 117px;
+    border-radius: 50px;
+}
+.previce{
+    background: whitesmoke;
+    position: relative;
+    top: -70px;
+    right: 120px;
+    border-radius: 50px;
+}
+.TitleService,.TitlePortfolio,.TitleAbout{
+    text-align: center;
+    font-size: 51px;
+    font-family: auto;
+    margin: 40px 0;
+}
+.line{
+    width: 118px;
+    height: 2px;
+    display: block;
+    background: gray;
+    /* text-align: center; */
+    position: relative;
+    left: 75vh;
+    top: -38px;
+}
+.cercule{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: #fff;
+    position: relative;
+    top: -10px;
+    border-radius: 50px;
+    border: 2px solid gray;
+    left: 42%;
+}
+.secondPrag{
+    text-align: center;
+    width: 504px;
+    position: relative;
+    left: 46vh;
+    color: #808080c7;
+    margin: 37px 0;
+    top: -33px;
+    font-size: large;
+}
+
+#iconsSectionService{
+    font-size: 35px;
+    width: 50px;
+    height: 50px;
+    color: black;
+    margin: 30px 0;
+}
+.titleIcon{
+    font-size: 20px;
+    font-weight: bold;
+    color: #1db5d9e6;
+    position: relative;
+    top: -81px;
+    margin: 0 80px;
+}
+.pargIcon{
+    margin: 0 80px;
+    top: -53px;
+    font-size: large;
+    position: relative;
+    color: #808080c7;
+}
+.secondBackground{
+    background-image: url("images2/design-features.jpg");
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+    padding: 100px;
+}
+.imgPhone{
+    width: 350px;
+    height: 400px;
+    position: relative;
+    top: 141px;
+}
+
+#ourDsing{
+   background:  rgba(15, 115, 143, 0.732);
+    border-radius: 10px;
+}
+.titleForBackground{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin: 20px 0
+}
+.PcIcons{
+    width: 30px;
+    height: 30px;
+    margin: 20px
+}
+.titleForIcons{
+    font-size: 18px;
+    font-family: auto;
+    color: white;
+
+}
+.allElementForPortfolio{
+    display: flex;
+  
+    justify-content: center;
+}
+
+.spanforElement{
+    margin: 10px 10px;
+    font-size: 19px;
+}
+#All{
+    background-color: rgb(17 108 235 / 73%);
+    padding: 10px;
+    position: relative;
+    top: -10px;
+    color: white;
+}
+.imgForPortfolio,.imgForPortfolio1{
+    width: 297px;
+    height: 300px;
+    margin: 2px;
+}
+
+
+
+.btnForPortfolio{
+    text-align: center;
+    position: relative;
+    top: 15px;
+    padding: 10px;
+    font-size: 20px;
+    background: #5591bc;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.imgForSectionAboutIt{
+    position: relative;
+    top: 66px;
+    overflow: hidden;
+    /* display: flex; */
+    /* justify-content: center; */
+    left: 141px;
+}
+.backForAbout{
+    background: url(images2/stats.png);
+    height: 300px;
+    padding: 80px;
+    z-index: 1;
+    position: relative;
+
+}
+.backForAbout::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 70%);
+}
+#backAbout{
+    height: 150px;
+    background: rgba(17, 108, 235, 0.3);
+    color: white;
+  
+    /* padding: 28px; */
+    text-align: center;
+}
+.iconCoffe{
+
+}
+.number{
+    font-size: 40px;
+}
+.titleAbout{
+
+}
+
+#icon{
+    width: 30px;
+    height: 30px;
+    margin: 5px 0;
+    color: black;
+}
+
+.titleForComment{
+    text-align: center;
+    margin: 30px;
+    font-size: large;
+    font-family: auto; 
+}
+.testForComment{
+    text-align: center;
+    margin: 20px;
+    color: gray;
+}
+.progrss{
+    width: 100%;
+    height: 30px;
+    background: #6c757da6;
+}
+
+.spanForAdobe90{
+    position: relative;
+    top: 0;
+    margin: 0;
+    width: 90%;
+    height: 100%;
+    background: #007aff;
+    display: block;
+}
+.spanForAdobe80{
+    position: relative;
+    top: 0;
+    margin: 0;
+    width: 80%;
+    height: 100%;
+    background: #007aff;
+    display: block;
+}
+.spanForAdobe85{
+    position: relative;
+    top: 0;
+    margin: 0;
+    width: 85%;
+    height: 100%;
+    background: #007aff;
+    display: block;
+}
+.number90{
+    position: relative;
+    left: 85%;
+    top: -70px;
+    width: 30px;
+    height: 30px;
+    background: black;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.number85{
+    position: relative;
+    left: 80%;
+    top: -70px;
+    width: 30px;
+    height: 30px;
+    background: black;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.number80{
+    position: relative;
+    left: 75%;
+    top: -70px;
+    width: 30px;
+    height: 30px;
+    background: black;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.forAdobe{
+    margin: 20px 0;
+}
+
+.firstPerson,.secondPerson{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px 10px;
+}
+.TextForFirstPerson,.TextForSecondPerson{
+    color: gray;
+    position: relative;
+    margin: 0 112px;
+    top: -111px;
+    left: 50px; 
+}
+.nameForFirstPerson ,.nameForSecondPerson{
+    float: right;
+    color: #80808099;
+    position: relative;
+    right: 86px;
+    top: -106px;
+}
+.lineForSecondPerson ,.lineForFirstPerson{
+    height: 1px;
+    background: gray;
+    position: relative;
+    top: -66px;
+    margin: 0px 120px;
+    left: 40px;
+}
+
+
+
+
+
+.SentenceImg{
+    width: 100%;
+    height: 300px;
+}
+
+.sentence{
+    font-size: 29px;
+    position: relative;
+    top: -172px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.nameOfSentece{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: -177px;
+}
+#basic,#PREMIUM,#PRO,#PLATINUM{
+    text-align: center;
+    border-top: 1px solid #007bff;
+   
+   
+}
+.nameOflevel{
+    font-size: 30px;
+    margin: 10px;
+}
+.price{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.dolar{
+    font-size: 27px;
+    margin: 16px;
+    position: relative;
+    top: -25px;
+}
+.dolar2{
+    font-size: 27px;
+    margin: 5px;
+}
+.feature{
+    margin: 10px 40px;
+    border-bottom: 1px solid  #007bff;
+    padding: 10px;
+    font-size: 20px;
+}
+.lineBlue{
+    border-bottom: 1px solid  #007bff;
+    position: relative;
+   
+}
+.ForLevel{
+    padding: 20px;
+   
+    border: 1px solid #007bff;
+    color: blueviolet;
+    margin: 10px;
+}
+.request{
+    text-align: center;
+    margin: 30px;
+    font-size: 27px;
+}
+.ContactUs{
+    padding: 15px;
+    /* display: flex; */
+    border: none;
+    background: #007bff;
+    font-weight: bold;
+    color: white;
+}
+.backgoundEarth{
+    height: 300px;
+    width: 100%;
+    position: relative;
+    margin: 20px 0;
+}
+.inputeSub{
+    position: relative;
+    top: -187px;
+}
+.inpt{
+    height: 40px;
+    margin: 0 20px;
+    /* border: none; */
+    border-radius: 5px;
+    outline: none;
+    background: transparent;
+    /* border: 1px solid #007aff; */
+   
+    border-color:#007aff;
+}
+.inputeSub{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+     /* padding: 7px; */
+     position: relative;
+     right: 17px;
+     /* border-left: none; */
+     border-color: #007AFE;
+     background: transparent;
+     color: white;
+    top: 1px;
+     background: #007aff;
+}
+.spanTextForbackEarth{
+    font-size: large;
+    color: white;
+    margin: 0 10px;
+    font-weight: bold;
+}
+.form-control{
+    margin-bottom: 10px;
+}
+.sendForm{
+    padding: 10px;
+    float: right;
+    background: #007aff;
+    color: white;
+    font-family: auto;
+    border: none;
+    border-radius: 5px
+}
+.getInTouch{
+    font-size: 20px;
+    margin: 10px;
+}
+.numberEnd{
+    color: gray;
+    margin: 10px;
+}
+footer{
+    background: url("images2/subscribe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+.theEnd{
+    margin: 30px 0;
+}
+.Socil{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.end{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    top: 210px;
+}
+.allIconsForFotoor{
+    display: flex;
+    justify-content: center;
+}
+#iconsEnd{
+    width: 30px;
+    height: 30px;
+    color: black;
+    margin: 0 5px;
+    position: relative;
+    top: 30px;
+    border-bottom: 1px solid black;
+}
+
+.myName{
+    color: red;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
